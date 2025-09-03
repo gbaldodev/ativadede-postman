@@ -36,7 +36,7 @@ document.getElementById("add").addEventListener("click", ()=>{
   });
 
   function remove(ids, btn) {
-    fetch(`https://crudcrud.com/api/ad2ec300a2c44d1588d0db5cceb3ca6c/ids/${ids}`, {
+    fetch(`https://crudcrud.com/api/ad2ec300a2c44d1588d0db5cceb3ca6c/ids/${ids}`,{
         method: "DELETE"
     })
     .then(response =>{
